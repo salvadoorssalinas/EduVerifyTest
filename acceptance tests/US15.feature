@@ -15,3 +15,4 @@ Examples: Datos de entrada
 Examples: Datos de salida
     |confirmación de llegada a la reserva|
     |registro de la confirmación de llegada a la reserva|
+    
