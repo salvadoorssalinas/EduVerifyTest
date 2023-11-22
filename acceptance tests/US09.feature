@@ -1,18 +1,18 @@
-Feature: US09 Ver ejemplos visuales sobre el funcionamiento del sistema
-    Como estudiante de la UPC, 
-    quiero que la página web contenga información visual 
-    para ver el funcionamiento del sistema.
+Feature: US09 Ejemplos visuales sobre el funcionamiento del sistema
+   Como estudiante de la UPC, 
+   quiero que la página web contenga información visual 
+   para ver el funcionamiento del sistema.
 
-Scenario: El estudiante desea visualizar el funcionamiento del sistema
+Scenario: Visualización del funcionamiento del sistema RFID
 Dado que <el estudiante> se encuentra en la página web
 Cuando <el estudiante> se dirija a la sección “Sobre Producto”
 Entonces el estudiante podrá visualizar <imagenes>
-Y <datos sobre el funcionamiento>
+Y <datos sobre el funcionamiento> del sistema RFID.
 
 Examples: Datos de entrada
-    | el estudiante | 
-    | Gonzalo Quispe |
+    | ingreso             |      opcion sobre producto        | 
+    | ingreso a la pagina | acceso a informacion del producto |
 
 Examples: Datos de salida
-    | imagenes | datos sobre el funcionamiento |
-    | imagen1.jpg | Cuenta con compatibilidad con otras tecnologías |
+    |     imagenes                          |  funcionamiento   |
+    | estudiante_ingresando_tarjetaRFID.jpg | principales datos |
