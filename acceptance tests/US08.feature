@@ -1,4 +1,4 @@
-Feature: Conocer información sobre el sistema
+Feature: US08 Conocer información sobre el sistema
     Como estudiante de la UPC, 
     quiero que haya una página web  
     para conocer sobre el sistema RFID utilizado en la universidad.
